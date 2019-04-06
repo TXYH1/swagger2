@@ -186,7 +186,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <swaggerInput>${swagger.input}</swaggerInput>
+                    <swaggerInput>http://localhost:8050/v2/api-docs</swaggerInput>
                     <outputDir>${generated.asciidoc.directory}</outputDir>
                     <config>
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
